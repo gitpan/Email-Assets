@@ -35,7 +35,9 @@
       },
       "runtime" : {
          "requires" : {
+            "File::Type" : "0.22",
             "MIME::Base64" : "0",
+            "MIME::Lite" : "0",
             "MIME::Types" : "0",
             "Moose" : "0",
             "perl" : "5.006"
@@ -43,5 +45,5 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "version" : "0.02"
 }
